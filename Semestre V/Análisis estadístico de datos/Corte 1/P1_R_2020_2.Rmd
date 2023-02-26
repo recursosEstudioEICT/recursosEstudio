@@ -1,0 +1,50 @@
+---
+title: "Punto 4, parcial 1, AED"
+output:
+  pdf_document: default
+  html_notebook: default
+---
+
+
+## Ejercicio IRIS
+
+
+### Probando un vectAor medio multivariado con $T^{2}$
+Se midieron las longitudes y los anchos del pétalo y sépalo de 4 especies de flores de plantas iris. De tal forma que las variables corresponden a $X_{1} =$ Sepal.Length, $X_{2}=$ Sepal.Width y $X_{3} =$ Petal.Length, $X_{4} =$ Petal.Width
+
+
+```{r}
+head(iris)
+```
+
+Seleccione sólo la especie de Setosa, y :
+
+
+a) Calcule los intervalos de Bonferroni del 95% de confianza simultáneos  para las cuatro componentes de medias. 
+
+b) Proponga una valor de la media que se encuentre dentro de la región de confianza hiper-elipsoidal. 
+
+```{r}
+
+dat <- iris[iris$Species=="setosa",1:4]
+head(dat)
+```
+
+### Solución del punto a)
+
+```{r}
+# COLOQUE AQUI LA SOLUCION DEL PUNTO A
+
+
+
+```
+
+
+### Solución del punto b)
+
+
+```{r}
+# COLOQUE AQUI LA SOLUCION DEL PUNTO B
+
+```
+
